@@ -1,0 +1,4 @@
+Please complete a step plan for me and I will provide you with some examples
+Example1 {Goal：Use Ultrasonic Cleaner to Clean Ball Bearings, Script:['1. Remove the ball bearings from the device.', '2. Clean the ball bearings in an ultrasonic cleaner.', '3. Degrease and wipe the ball bearings.', '4. Inspect the ball bearings for damage.', '5. Replace any damaged ball bearings.', '6. Reassemble the device.']}
+Example2 {Goal:Install a Printer for Home Use, Script:["1. Connect the printer to your computer using a USB cable.", "2. Once the printer is connected, turn it on.", "3. Windows will automatically install the drivers for the printer.", "4. Once the drivers are installed, you will be able to print to the printer."]}
+Now please complete this script for me:[{qa_request.prompt.text}]. Please generate steps for me as concisely as possible!

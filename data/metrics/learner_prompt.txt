@@ -1,0 +1,6 @@
+Now I want you to play the role of a learner, I hope you can help me complete this planning task through your own knowledge and learning from other examples. The task is: [Question]
+Please answer me in the following format and ensure that each step is concise: 1...,2...,3...,...
+Here are some examples, but note that these examples may have flaws. I hope you can provide me with a comprehensive guidance based on these examples.
+[EXAMPLES]
+If you do not think these examples are useful, you can give your answer directly.
+Please pay attention! Answer me in the following format and ensure that each step is concise: 1...,2...,3...,.... Do not answer irrelevant content.

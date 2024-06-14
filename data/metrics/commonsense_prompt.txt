@@ -1,0 +1,7 @@
+Please play the role of an evaluator.
+Please evaluate this answer:
+MODEL_INFERENCE
+
+Please determine if there are any areas in this script that do not conform to commonsense.
+If each step of this script conforms to common sense, please answer me True, otherwise, answer me False.
+Please answer me only with True or False.

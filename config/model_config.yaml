@@ -1,0 +1,47 @@
+baichuan-inc:
+  Baichuan-7B:
+    model_type: base
+    path: /home/zbl/data/llm/baichuan-inc/Baichuan-7B
+  Baichuan-13B-Base:
+    model_type: base
+    path: /home/zbl/data/llm/baichuan-inc/Baichuan-13B-Base
+  Baichuan-13B-Chat:
+    model_type: chat
+    path: /home/zbl/data/llm/baichuan-inc/Baichuan-13B-Chat
+  Baichuan2-7B-Base:
+    model_type: base
+    path: /home/zbl/data/llm/baichuan-inc/Baichuan2-7B-Base
+  Baichuan2-7B-Chat:
+    model_type: chat
+    path: /home/zbl/data/llm/baichuan-inc/Baichuan2-7B-Chat
+  Baichuan2-13B-Chat:
+    model_type: chat
+    path: /home/zbl/data/llm/baichuan-inc/Baichuan2-13B-Chat
+  Baichuan2-7B-Base:
+    model_type: base
+    path: /home/zbl/data/llm/baichuan-inc/Baichuan2-7B-Base
+
+01ai:
+  Yi-6B:
+    model_type: base
+    path: /home/zbl/data/llm/01ai/Yi-6B
+  Yi-6B-200K:
+    model_type: base
+    path: /home/zbl/data/llm/01ai/Yi-6B-200K
+  Yi-34B-200K:
+    model_type: base
+    path: /home/zbl/data/llm/01ai/Yi-34B-200K
+
+qwen:
+  Qwen-7B:
+    model_type: base
+    path: /home/zbl/data/llm/qwen/Qwen-7B
+  Qwen-7B-Chat:
+    model_type: chat
+    path: /home/zbl/data/llm/qwen/Qwen-7B-Chat
+  Qwen-14B:
+    model_type: base
+    path: /home/zbl/data/llm/qwen/Qwen-14B
+  Qwen-14B-Chat:
+    model_type: chat
+    path: /home/zbl/data/llm/qwen/Qwen-14B-Chat

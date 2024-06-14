@@ -1,0 +1,13 @@
+Please answer the questions according to my requirements，I will provide you with an example：
+
+Example:
+Question：Use Ultrasonic Cleaner to Clean Ball Bearings
+Answer:1. Remove the ball bearings from the device. 2. Clean the ball bearings in an ultrasonic cleaner. 3. Degrease and wipe the ball bearings. 4. Inspect the ball bearings for damage. 5. Replace any damaged ball bearings. 6. Reassemble the device.
+
+Now please answer this question：
+Question: [MY_QUESTION]
+Let's think step by step. Please answer me as concisely as possible in the following format：
+1. ...
+2. ...
+3. ...
+...

@@ -1,0 +1,89 @@
+baichuan-inc:
+  Baichuan-13B-Chat:
+    model_type: chat
+    path: /mnt/publiccache/dpf/llm/baichuan-inc/Baichuan-13B-Chat
+  Baichuan2-7B-Chat:
+    model_type: chat
+    path: /mnt/publiccache/dpf/llm/baichuan-inc/Baichuan2-7B-Chat
+  Baichuan2-13B-Chat:
+    model_type: chat
+    path: /mnt/publiccache/dpf/llm/baichuan-inc/Baichuan2-13B-Chat
+
+01ai:
+  Yi-6B-Chat:
+    model_type: chat
+    path: /mnt/publiccache/huggingface/01ai/Yi-6B-Chat
+  Yi-34B-Chat:
+    model_type: chat
+    path: /mnt/publiccache/huggingface/01ai/Yi-34B-Chat
+
+qwen:
+  Qwen-7B-Chat:
+    model_type: chat
+    path: /mnt/publiccache/dpf/llm/qwen/Qwen-7B-Chat
+  Qwen-14B-Chat:
+    model_type: chat
+    path: /mnt/publiccache/dpf/llm/qwen/Qwen-14B-Chat
+  Qwen-72B-Chat:
+    model_type: chat
+    path: /mnt/publiccache/huggingface/qwen/Qwen-72B-Chat
+  Qwen-110B-Chat:
+    model_type: chat
+    path: /mnt/publiccache/huggingface/qwen/Qwen1.5-110B-Chat
+
+THUDM:
+  chatglm3-6b:
+    model_type: chat
+    path: /mnt/publiccache/dpf/llm/THUDM/chatglm3-6b
+
+mistralai:
+  Mistral-7B-Instruct-v0.1:
+    model_type: chat
+    path: /mnt/publiccache/dpf/llm/mistralai/Mistral-7B-Instruct-v0.1
+  Mistral-7B-Instruct-v0.2:
+    model_type: chat
+    path: /mnt/publiccache/dpf/llm/mistralai/Mistral-7B-Instruct-v0.2
+  Mistral-8x7B-Instruct-v0.1:
+    model_type: chat
+    path: /mnt/publiccache/huggingface/mistralai/Mixtral-8x7B-Instruct-v0.1
+
+meta:
+  llama2-7b-chat:
+    model_type: chat
+    path: /mnt/publiccache/dpf/llm/meta/llama2-7b-chat
+  llama2-13b-chat:
+    model_type: chat
+    path: /mnt/publiccache/dpf/llm/meta/llama2-13b-chat
+  Llama-2-70b-chat:
+    model_type: chat
+    path: /mnt/publiccache/huggingface/Llama-2-70b-chat-hf
+  llama3-8b-instruct:
+    model_type: chat
+    path: /mnt/publiccache/huggingface/Meta-Llama-3-8B-Instruct
+  llama3-70b-instruct:
+    model_type: chat
+    path: /mnt/publiccache/huggingface/Meta-Llama-3-70B-Instruct
+
+
+
+lmsys:
+  vicuna-7b-v1.5:
+    model_type: chat
+    path: /mnt/publiccache/dpf/llm/lmsys/vicuna-7b-v1.5
+  vicuna-13b-v1.5:
+    model_type: chat
+    path: /mnt/publiccache/dpf/llm/lmsys/vicuna-13b-v1.5
+
+tiiuae:
+  falcon-7b-instruct:
+    model_type: chat
+    path: /mnt/publiccache/dpf/llm/tiiuae/falcon-7b-instruct
+  falcon-40b-instruct:
+    model_type: chat
+    path: /mnt/publiccache/huggingface/tiiuae/falcon-40b-instruct/
+
+WizardLM:
+  WizardLM-13B-V1.2:
+    model_type: chat
+    path: /mnt/publiccache/dpf/llm/WizardLM/WizardLM-13B-V1.2
+

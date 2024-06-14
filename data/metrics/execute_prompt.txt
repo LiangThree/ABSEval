@@ -1,0 +1,19 @@
+Now please play the role of an executor to complete this task: [QUESTION]
+There are limitations in the task: [LIMITATION]
+I have provided you with the steps to complete the task:
+MODEL_INFERENCE
+
+Please follow these steps and answer my questions below
+1. The script meets the limitations [LIMITATION], meet_limitation is True. The script doesn't meet the limitations [LIMITATION], meet_limitation is False.
+2. The script achieves the goal, complete_goal is True. The script doesn't achieve the goal, complete_goal is False.
+3. The sequence of scripts is correct, step_order_correct is True.  The sequence of scripts is wrong, step_order_correct is False.
+Let's think step by step.
+
+
+Please answer me in the json format, answer me with True or False:
+{
+    "meet_limitation":"False",
+    "complete_goal":"True",
+    "step_order_correct": "False",
+    "explain": "This script did not meet the limitations given in the question. In addition, there is an error in the sequence of steps, because ..."
+}

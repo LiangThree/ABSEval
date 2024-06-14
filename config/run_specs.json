@@ -1,0 +1,50 @@
+[
+    {
+      "db_path": "data/database/script.db",
+      "model_conf_path": "config/model_config_docker.yaml",
+      "scenario_conf":{
+        "scenario_name": "question_answering",
+        "db_path": "data/database/script.db",
+        "table_name": "question",
+        "acceleration_method": "vllm",
+        "category": ["Computers and Electronics", "Education and Communications",
+          "Food and Entertaining","Health", "Hobbies and Crafts", "Holidays and Traditions",
+          "Home and Garden", "Sports and Fitness", "Travel"]
+      },
+      "adapter_method": "ADAPT_GENERATION",
+      "other_category": [
+          "Arts and Entertainment", "Computers and Electronics", "Education and Communications",
+          "Food and Entertaining","Health", "Hobbies and Crafts", "Holidays and Traditions",
+          "Home and Garden", "Sports and Fitness", "Travel"
+      ],
+      "others": [
+        "meta/llama2-7b-chat",
+        "meta/llama2-13b-chat",
+        "meta/llama3-8b-instruct",
+        "meta/Llama-2-70b-chat",
+        "meta/llama3-70b-instruct",
+
+        "baichuan-inc/Baichuan-13B-Chat",
+        "baichuan-inc/Baichuan2-13B-Chat",
+
+        "qwen/Qwen-7B-Chat",
+        "qwen/Qwen-14B-Chat",
+        "qwen/Qwen-72B-Chat",
+
+        "mistralai/Mistral-7B-Instruct-v0.1",
+        "mistralai/Mistral-7B-Instruct-v0.2",
+        "mistralai/Mistral-8x7B-Instruct-v0.1",
+
+        "lmsys/vicuna-7b-v1.5",
+        "lmsys/vicuna-13b-v1.5"
+      ],
+      "model_repo_id": [
+
+      ],
+      "metric_conf": {
+        "metric_name": "model_metric",
+        "model_repo_id": "openai/chatgpt",
+        "eval_prompt_format": "path:data/metrics/eval_prompt_format/wikidata_en.txt"
+      }
+    }
+  ]

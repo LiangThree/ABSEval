@@ -1,0 +1,21 @@
+Please play the role of an evaluator, the question that needs your evaluation is [Question].
+The standard answer is:
+Gold Answer
+
+The answer I need your evaluation is:
+Model Answer
+
+I would like you to check if there are any missing, redundant, or duplicated steps in these steps.
+missing_steps: The script is missing any steps.
+redundant_steps: There are steps unrelated to achieving the goal.
+duplicate_steps: There are duplicate steps present.
+Let's think step by step.
+
+Please answer me in the json format:
+
+{
+    "missing_steps":"True",
+    "redundant_steps":"True",
+    "duplicate_steps": "True",
+    "explain": "This script is missing key step XXX. Step x is not related to the target and belongs to redundant steps, but there are no duplicate steps..."
+}

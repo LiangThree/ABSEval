@@ -1,0 +1,26 @@
+Please play the role of an evaluator.
+The question I need you to evaluate is: [QUESTION]
+Please note that there are limitations in this issue: [LIMITATION]
+Please evaluate this answer:
+MODEL_INFERENCE
+
+The evaluation indicators are as follows:
+1. missing_steps: Missing steps compared to standard answer.
+2. redundant_steps: There are steps unrelated to achieving the goal.
+3. duplicate_steps: There is a behavior that has been repeatedly executed.
+4. executable: Whether the script can be executed.
+5. If the script meets the limitations [LIMITATION], meet_limitation is True, otherwise it is False.
+6. If the script achieves the goal, complete_goal is True, otherwise it is False.
+7. If the sequence of scripts is correct, step_order_correct is True, otherwise it is False.
+Please make a strict evaluation, let's think step by step!
+
+Please answer me in the json format:
+{
+    "missing_steps":"True",
+    "redundant_steps":"True",
+    "duplicate_steps": "False",
+    "executable":"True",
+    "meet_limitation":"False",
+    "complete_goal":"True",
+    "step_order_correct": "False"
+}
